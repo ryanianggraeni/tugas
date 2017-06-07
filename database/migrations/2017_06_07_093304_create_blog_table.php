@@ -17,6 +17,7 @@ class CreateBlogTable extends Migration
             $table->increments('id');
             $table->string('title');
             $table->string('post');
+            $table->string('naon');
             $table->timestamps();
         });
     }
